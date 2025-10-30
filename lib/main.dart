@@ -48,19 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            const Text(
-              'Flutter first project WEB Academy (Oleksii Kozlovskyi)',
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                fontSize: 24,
-              ),
-            ),
-            // Text(
-            //   '$_counter',
-            //   style: Theme.of(context).textTheme.headlineMedium,
-            // ),
-          ],
+
         ),
       ),
       // floatingActionButton: FloatingActionButton(
