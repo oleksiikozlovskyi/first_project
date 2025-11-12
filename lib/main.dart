@@ -60,7 +60,19 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             SizedBox(
               height: 20,
-            )
+            ),
+            Container(
+              padding: EdgeInsets.all(10),
+              decoration: BoxDecoration(
+                border: Border.all(color: Colors.grey),
+                borderRadius: BorderRadius.circular(10),
+              ),
+              child: Image.network(
+                'https://fastly.picsum.photos/id/200/1920/1280.jpg?hmac=-eKjMC8-UrbLMpy1A4OWrK0feVPB3Ka5KNOGibQzpRU',
+                height: 200,
+                width: 200,
+              ),
+            ),
           ],
         ),
       ),
