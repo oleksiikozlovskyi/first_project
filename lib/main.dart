@@ -73,6 +73,11 @@ class _MyHomePageState extends State<MyHomePage> {
                 width: 200,
               ),
             ),
+            Text(
+              'My text',
+              style: TextStyle(
+                  fontSize: 20, color: Colors.red, fontStyle: FontStyle.italic),
+            )
           ],
         ),
       ),
