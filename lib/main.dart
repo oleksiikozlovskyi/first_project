@@ -57,6 +57,26 @@ class _MyHomePageState extends State<MyHomePage> {
               'My text',
               style: TextStyle(
                   fontSize: 20, color: Colors.red, fontStyle: FontStyle.italic),
+            ),
+            Container(
+              padding: EdgeInsets.all(10),
+              decoration: BoxDecoration(
+                border: Border.all(color: Colors.grey),
+                borderRadius: BorderRadius.circular(10),
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.black26,
+                    spreadRadius: 2,
+                    blurRadius: 3,
+                    offset: const Offset(3, 5)
+                  )
+                ]
+              ),
+              child: Image.asset(
+                'assets/image/963dbe2472d23882bf65f6fc5748ffbe.jpg',
+                height: 200,
+                width: 200,
+              ),
             )
           ],
         ),
